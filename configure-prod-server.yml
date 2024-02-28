@@ -1,0 +1,17 @@
+---
+- name: configure test server
+  hosts: prod-server
+  become: true
+
+  tasks:
+  - name: update repo
+    command: apt update
+
+  - name: install docker
+    command: apt install -y docker.io
+
+  - name: start docker service
+    command: systemctl start docker
+
+  - name: deploy insure-me-app
+    command: docker run -itd -p 8085:8081 shubhamkushwah123/insure-me-app:1.0 
