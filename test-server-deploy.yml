@@ -18,4 +18,4 @@
 
 
   - name: deploy to test-server
-    command: docker run -itd -p 8081:8081 shubhamkushwah123/insure-me:1.0
+    command: docker run -itd -p 8081:8081 shubhamkushwah123/insure-me:2.0
