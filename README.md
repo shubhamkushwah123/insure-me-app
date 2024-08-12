@@ -88,4 +88,4 @@ The application source code is available at the following link: https://github.c
 - Mention your GitHub repository containing all the codes, including application code, pipeline code, Dockerfile, Ansible scripts, Terraform scripts, Kubernetes scripts, etc.
 - Upload the project in your designated Assignment project acitivity in iON.
 
-We look forward to your innovative and efficient solutions. Good luck!
+We look forward to your innovative and efficient solutions. Good luck!!
