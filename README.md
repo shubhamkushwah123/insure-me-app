@@ -1,4 +1,4 @@
-**Deadline:** You have until Thursday evening, 7:00 PM IST, to attempt this project and see how far you can progress. A mentor will demo this Capstone project from scratch to the end on Thursday. Please make sure to attend the Thursday session. Your next session is scheduled for Thursday.
+**Deadline:** You have until Thursday evening, 19th August 2024 7:00 PM CST, to submit the assignment project. It is mandatory to submit this project for completion of the training.
 
 # Project Overview
 
@@ -64,21 +64,23 @@ You are required to implement a Proof of Concept (POC) by developing a Mavenized
 - **Docker:** For deploying containerized applications.
 - **Ansible:** Configuration management tool.
 - **Selenium:** For automating tests on the deployed web application.
+- **Terraform:** For provisioning of Infrastructure
 - **AWS:** For creating EC2 machines as servers and deploying the web application.
 
 ### Workflow:
 
-1. A developer pushes updated code to the Git master branch.
-2. A Jenkins job is triggered using a GitHub Webhook.
-3. The code is checked out, compiled, tested, packaged, containerized, and deployed to a preconfigured test-server automatically.
-4. Deployment is tested using a test automation tool (Selenium).
-5. If the build is successful, it is deployed to the production server.
+1. Test Server and Prod Server must be configured using Terraform.
+2. developer pushes updated code to the Git master branch.
+3. A Jenkins job is triggered using a GitHub Webhook.
+4. The code is checked out, compiled, tested, packaged, containerized, and deployed to test-server automatically using Ansible.
+5. Deployment is tested using a test automation tool (Selenium).
+6. If the build is successful, it is deployed to the production server using ansible.
 
 All these steps should happen automatically, triggered by a push to the GitHub master branch.
 
 # Application Source Code
 
-The application source code is available at the following link: **Insure Me Application Source Code**
+The application source code is available at the following link: https://github.com/shubhamkushwah123/insure-me-app.git
 
 # Submission Requirements
 
