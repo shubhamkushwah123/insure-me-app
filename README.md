@@ -51,9 +51,9 @@ You are required to implement a Proof of Concept (POC) by developing a Mavenized
 # Additional Tasks
 
 - Write necessary JUnit test cases.
-- Generate HTML reports using TestNG.
+- Write necessary Terraform Configuration.
+- Configure the test and prod servers using Jenkins pipeline (optional - bonus marks)
 - Push the code to your GitHub repository.
-- Preload some data into the database.
 
 # CI/CD Implementation
 
@@ -70,7 +70,7 @@ You are required to implement a Proof of Concept (POC) by developing a Mavenized
 ### Workflow:
 
 1. Test Server and Prod Server must be configured using Terraform.
-2. developer pushes updated code to the Git master branch.
+2. developer pushes application code to the Git master branch.
 3. A Jenkins job is triggered using a GitHub Webhook.
 4. The code is checked out, compiled, tested, packaged, containerized, and deployed to test-server automatically using Ansible.
 5. Deployment is tested using a test automation tool (Selenium).
@@ -86,6 +86,6 @@ The application source code is available at the following link: https://github.c
 
 - Create a document with detailed step-by-step tasks along with screenshots.
 - Mention your GitHub repository containing all the codes, including application code, pipeline code, Dockerfile, Ansible scripts, Terraform scripts, Kubernetes scripts, etc.
-- Upload the project in your designated Google Drive folder.
+- Upload the project in your designated Assignment project acitivity in iON.
 
 We look forward to your innovative and efficient solutions. Good luck!
