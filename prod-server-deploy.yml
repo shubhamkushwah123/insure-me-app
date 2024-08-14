@@ -1,4 +1,4 @@
-- hosts: test-server
+- hosts: prod-server
   become: true
   tasks:
   - name: update cache
@@ -17,5 +17,5 @@
       enabled: true
 
 
-  - name: deploy to test-server
+  - name: deploy to prod-server
     command: docker run -itd -p 8081:8081 shubhamkushwah123/insure-me:2.0
