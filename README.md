@@ -1,4 +1,4 @@
-**Deadline:** You have until Thursday evening, 19th August 2024 7:00 PM CST, to submit the assignment project. It is mandatory to submit this project for completion of the training.
+**Deadline:** You have until Thursday evening, 19th August 2024 7:00 PM CST, to submit the assignment project. It is mandatory to submit this project for completion of the training..
 
 # Project Overview
 
